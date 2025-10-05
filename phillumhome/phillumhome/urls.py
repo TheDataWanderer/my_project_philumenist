@@ -20,5 +20,5 @@ from collection.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('collection/', include('collection.urls')),
+    path('', include('collection.urls')),
 ]
